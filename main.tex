@@ -1,0 +1,67 @@
+
+%--------------------------------------- preamble
+\input{preamble} %call preamble
+
+
+
+% start of document 
+\begin{document}
+
+%--------------------------------------- front matter
+\pagenumbering{roman}
+
+% using '\include' for larger portions of text
+%% and '\input' for smaller portions
+
+\input{title_page} % add title page
+\input{approval_sheet} % add approval sheet
+\doublespacing
+
+\clearpage
+\include{body/acknowledgment}
+
+
+\tableofcontents
+
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+\newpage
+\singlespacing
+\include{body/abstract}
+\newpage
+
+%----------------------------------------- body
+\doublespace
+\pagenumbering{arabic}
+
+%% include chp title in header
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
+\fancyhead[R]{}
+\fancyhead[L]{\chaptername\ \thechapter\ --\ \leftmark}
+
+
+
+\include{body/chapter1_intro}
+\include{body/chapter2_methods}
+\include{body/chapter3_results}
+\include{body/chapter4_discussion}
+\include{body/chapter5_conclusion}
+
+%--------------------------------------- back matter
+\newpage
+\appendix
+\include{body/appendix}
+
+%  references 
+\newpage
+{\singlespace
+%\addcontentsline{toc}{part}{REFERENCES}
+\bibliographystyle{plain}
+\bibliography{bibliography}
+}
+\end{document}

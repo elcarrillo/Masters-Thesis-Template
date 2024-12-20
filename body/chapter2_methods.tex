@@ -1,0 +1,46 @@
+\chapter{Methods}
+
+\fancyhead[L]{Chapter 2: Methods}
+\fancyfoot[C]{\thepage}
+
+\section{Model Framework}
+A computational framework was utilized to simulate the behavior of a generalized system under variable conditions. The model calculates key outputs such as velocity, pressure, temperature, density, and composition as functions of input parameters. It is based on fundamental principles, including conservation laws, to provide a robust basis for analyzing system dynamics.
+
+\section{Experimental Setup}
+The input parameters used in the computational framework are outlined in Table \ref{table: model inputs}. Systematic variations in primary input variables were conducted, while other parameters were held constant, to assess their influence on system performance. This structured approach facilitates sensitivity analysis and comparative evaluation across multiple scenarios.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c c c|}
+\hline
+Parameter & Description & Value \\ [0.5ex]
+\hline
+$P_{ext}$ & External pressure (units) & 100 \\ [6pt]
+$T_{sys}$ & System temperature (units) & 300 \\ [6pt]
+$v_{in}$ & Initial velocity (units) & 10--100 \\ [6pt]
+$d_{sys}$ & System dimension (units) & 0.1--10 \\ [6pt]
+$\rho_{init}$ & Initial density (units) & 1 \\ [6pt]
+$\mu_{dyn}$ & Dynamic property (units) & 0.01 \\ [1ex]
+\hline
+\end{tabular}
+\caption[Input Parameters for Model Simulations]{Generalized input parameters for model simulations.}
+\label{table: model inputs}
+\end{table}
+
+Key variables, such as system velocity and dimensional properties, were adjusted to examine their effects on key outcomes, including flow characteristics, stability metrics, and energy dissipation. Results were used to evaluate patterns and quantify the impact of parameter changes.
+
+\section{Parameter Calculations}
+Primary system metrics were calculated using general relationships derived from theoretical principles and empirical approximations. For instance, a representative rate metric ($R$) was determined as:
+\begin{equation}
+    R = X Y Z,
+\end{equation}
+where \(X\), \(Y\), and \(Z\) are general system parameters. Adjustments for external conditions were incorporated using standard equations.
+
+\section{Simulation Procedures}
+Simulations were executed under steady-state assumptions, with parameters initialized as per Table \ref{table: model inputs}. Iterative solvers were employed to ensure convergence of results and to minimize computational error. Each simulation tracked the evolution of variables to steady-state conditions, enabling detailed evaluation.
+
+\section{Data Analysis and Interpretation}
+The simulation results were analyzed to extract trends and relationships between input parameters and system performance metrics. Visualization tools, such as graphs of output metrics versus input variables, were employed to highlight key findings. Statistical techniques were used to assess parameter sensitivity and validate the consistency of the results.
+
+\section{Summary of Methodology}
+This chapter describes the generalized methodology used to study system behavior. By integrating computational modeling, systematic parameter analysis, and data interpretation, a comprehensive approach was developed to investigate dynamic responses under controlled conditions.
