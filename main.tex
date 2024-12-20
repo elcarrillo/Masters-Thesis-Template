@@ -1,25 +1,20 @@
+%--------------------------------------- Preamble
+\input{preamble}
 
-%--------------------------------------- preamble
-\input{preamble} %call preamble
-
-
-
-% start of document 
+% Start of Document
 \begin{document}
 
-%--------------------------------------- front matter
+%--------------------------------------- Front Matter
 \pagenumbering{roman}
 
-% using '\include' for larger portions of text
-%% and '\input' for smaller portions
+% Include smaller portions with '\input' and larger portions with '\include'
+\input{title_page}         % Title page
+\input{approval_sheet}     % Approval sheet
 
-\input{title_page} % add title page
-\input{approval_sheet} % add approval sheet
 \doublespacing
 
 \clearpage
 \include{body/acknowledgment}
-
 
 \tableofcontents
 
@@ -32,36 +27,35 @@
 \newpage
 \singlespacing
 \include{body/abstract}
+
 \newpage
 
-%----------------------------------------- body
-\doublespace
+%----------------------------------------- Body
+\doublespacing
 \pagenumbering{arabic}
 
-%% include chp title in header
+% Custom Headers
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
 \fancyhead[R]{}
 \fancyhead[L]{\chaptername\ \thechapter\ --\ \leftmark}
 
-
-
+% Include Chapters
 \include{body/chapter1_intro}
 \include{body/chapter2_methods}
 \include{body/chapter3_results}
 \include{body/chapter4_discussion}
 \include{body/chapter5_conclusion}
 
-%--------------------------------------- back matter
+%--------------------------------------- Back Matter
 \newpage
 \appendix
 \include{body/appendix}
 
-%  references 
+% References
 \newpage
 {\singlespace
-%\addcontentsline{toc}{part}{REFERENCES}
-\bibliographystyle{plain}
 \bibliography{bibliography}
 }
+
 \end{document}
