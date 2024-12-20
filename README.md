@@ -43,8 +43,7 @@ To assist others in understanding and crafting a well-structured master's thesis
 - Use `preamble.tex` to customize additional packages or macros as needed.
 
 ## Acknowledgment
-This template includes placeholder text generated with the assistance of ChatGPT, an AI language model developed by OpenAI <img src="https://openai.com/favicon.ico" alt="OpenAI Logo" title="OpenAI Logo" style="width:20px; height:auto;"> 
-. The dummy text and its structure were used as a framework to streamline the development of this LaTeX template.
+This template includes placeholder text generated with the assistance of ChatGPT, an AI language model developed by OpenAI. The dummy text and its structure were used as a framework to streamline the development of this LaTeX template.
 
 
 ---
