@@ -1,6 +1,6 @@
 # Master's Thesis Template
 
-This repository provides a LaTeX template designed by Edgar Carrillo, originally created to meet the thesis formatting requirements for Fisk University's MS in Physics program. By making this template publicly available, I aim to assist others in crafting well-structured master's theses and provide an example framework for academic writing.
+This repository provides a LaTeX template designed by Edgar Carrillo, originally created to meet the thesis formatting requirements for Fisk University's MS in Physics program. By making this template publicly available, I aim to assist others in crafting well-structured master's theses and provide a sample framework for academic writing.
 
 <div align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="LaTeX Logo" title="LaTeX Logo" style="width:50px; height:auto;">
@@ -47,10 +47,19 @@ The template is organized as follows:
 
 ## How to Use
 
-1. **Edit Content**: Update the `.tex` files in the `body/` directory with your thesis content.
-2. **Add Images**: Place your images in the `body/images/` folder and reference them within the chapters.
-3. **Compile**: Use a LaTeX editor (e.g., Overleaf, TeXShop, or VS Code with LaTeX Workshop) to compile the `main.tex` file.
-4. **Manage References**: Add your bibliography entries to `bibliography.bib`.
+1. **Open in Overleaf**: The easiest way to work with this template is by uploading the project to [Overleaf](https://www.overleaf.com/), an online LaTeX editor. Follow these steps:
+   - Download the repository as a `.zip` file.
+   - Log in to Overleaf and create a new project.
+   - Choose "Upload Project" and upload the `.zip` file.
+   - Edit and compile the `main.tex` file directly in Overleaf.
+
+2. **Edit Content**: Modify the `.tex` files in the `body/` directory with your thesis content.
+
+3. **Add Images**: Place your images in the `body/images/` folder and reference them within the chapters.
+
+4. **Compile Locally**: If you prefer to work locally, use LaTeX editors like TeXShop, VS Code with LaTeX Workshop, or any other editor, and compile the `main.tex` file.
+
+5. **Manage References**: Add your bibliography entries to the `bibliography.bib` file.
 
 ---
 
@@ -63,11 +72,10 @@ The template is organized as follows:
 
 ## Acknowledgment
 
-This template includes placeholder text and structure generated with the assistance of ChatGPT, an AI language model developed by OpenAI. The framework streamlines the process of developing a LaTeX-based thesis while adhering to academic standards.
+This template includes placeholder text generated with the assistance of ChatGPT, an AI language model developed by OpenAI.
 
 ---
 
 For questions or assistance, feel free to contact **Edgar Carrillo** at [elcar@uoregon.edu](mailto:elcar@uoregon.edu).
 
 ---
-
