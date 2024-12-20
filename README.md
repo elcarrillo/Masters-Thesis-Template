@@ -1,51 +1,73 @@
 # Master's Thesis Template
 
-This repository offers a <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="LaTeX Logo" title="LaTeX Logo" style="background-color:white; padding:5px; width:50px; height:auto;"> template created by **Edgar Carrillo**, originally designed to meet the thesis formatting requirements for Fisk University's MS in Physics program. 
+This repository provides a LaTeX template designed by Edgar Carrillo, originally created to meet the thesis formatting requirements for Fisk University's MS in Physics program. By making this template publicly available, I aim to assist others in crafting well-structured master's theses and provide an example framework for academic writing.
 
-To assist others in understanding and crafting a well-structured master's thesis, I have made this template publicly available as an example of a complete thesis framework.
-
-<img src="./body/images/books.jpg" alt="Books Image" title="This is a books image" width="500">
-
-
-
-## Directory Structure
-- `body/`: Contains all core components of the thesis.
-  - `images/`: Folder for storing images used in the thesis.
-  - `abstract.tex`: Contains the abstract section.
-  - `acknowledgment.tex`: Contains the acknowledgment section.
-  - `appendix.tex`: Contains the appendix.
-  - `chapter1_intro.tex`: The introduction chapter.
-  - `chapter2_methods.tex`: The methods chapter.
-  - `chapter3_results.tex`: The results chapter.
-  - `chapter4_discussion.tex`: The discussion chapter.
-  - `chapter5_conclusion.tex`: The conclusion chapter.
-
-- `approval_sheet.tex`: Contains the approval sheet template.
-- `bibliography.bib`: Bibliography file for managing references.
-- `main.tex`: The main LaTeX file to compile the thesis.
-- `preamble.tex`: Contains preamble settings such as packages, formatting, and custom definitions.
-- `title_page.tex`: Contains the title page template.
-
-## Key Features
-- Modular Structure: Each section and chapter is in a separate `.tex` file for easy organization and editing.
-- Image Management: Images are stored in the `body/images/` folder, allowing for centralized asset management.
-- Standardized Formatting: The `preamble.tex` ensures compliance with Fisk University's formatting requirements.
-- Custom Margins: Page margins are defined using the `geometry` package in `main.tex`. (Values are based on Fisk University requirements)
-
-## Usage Instructions
-1. Edit Content: Modify the content in the relevant `.tex` files in the `body/` directory.
-2. Add Images: Place images in the `body/images/` folder and reference them in your chapters.
-3. Compile: Compile `main.tex` using your preferred LaTeX editor (e.g., Overleaf, TeXShop, or VS Code with LaTeX Workshop).
-4. Bibliography: Manage citations using the `bibliography.bib` file.
-
-## Notes
-- Ensure the title page, approval sheet, and margins comply with any specific updates to university formatting guidelines.
-- Use `preamble.tex` to customize additional packages or macros as needed.
-
-## Acknowledgment
-This template includes placeholder text generated with the assistance of ChatGPT, an AI language model developed by OpenAI. The dummy text and its structure were used as a framework to streamline the development of this LaTeX template.
-
+<div align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="LaTeX Logo" title="LaTeX Logo" style="width:50px; height:auto;">
+</div>
 
 ---
 
-For questions or assistance, feel free to contact Edgar Carrillo (mailto:elcar@uoregon.edu).
+<div align="center">
+    <img src="./body/images/books.jpg" alt="Books Image" title="Books Image" width="600">
+</div>
+
+---
+
+## Directory Structure
+
+The template is organized as follows:
+
+- `body/`: Core content of the thesis.
+  - `images/`: Directory for storing images used in the thesis.
+  - `abstract.tex`: Abstract section.
+  - `acknowledgment.tex`: Acknowledgment section.
+  - `appendix.tex`: Appendix content.
+  - `chapter1_intro.tex`: Introduction chapter.
+  - `chapter2_methods.tex`: Methods chapter.
+  - `chapter3_results.tex`: Results chapter.
+  - `chapter4_discussion.tex`: Discussion chapter.
+  - `chapter5_conclusion.tex`: Conclusion chapter.
+- `approval_sheet.tex`: Approval sheet template.
+- `bibliography.bib`: Bibliography file for managing references.
+- `main.tex`: Main LaTeX file for compiling the thesis.
+- `preamble.tex`: Pre-defined settings for packages, formatting, and macros.
+- `title_page.tex`: Title page template.
+
+---
+
+## Key Features
+
+- **Modular Design**: Each section is stored in its own `.tex` file, simplifying organization and editing.
+- **Image Management**: Centralized folder (`body/images/`) for storing and referencing visual content.
+- **Standardized Formatting**: Ensures compliance with Fisk University's formatting guidelines through the `preamble.tex` file.
+- **Custom Margins**: Margins are defined in `main.tex` using the `geometry` package, based on university requirements.
+
+---
+
+## How to Use
+
+1. **Edit Content**: Update the `.tex` files in the `body/` directory with your thesis content.
+2. **Add Images**: Place your images in the `body/images/` folder and reference them within the chapters.
+3. **Compile**: Use a LaTeX editor (e.g., Overleaf, TeXShop, or VS Code with LaTeX Workshop) to compile the `main.tex` file.
+4. **Manage References**: Add your bibliography entries to `bibliography.bib`.
+
+---
+
+## Notes
+
+- Ensure the title page, approval sheet, and margins align with any specific updates to your institution's formatting requirements.
+- Modify `preamble.tex` to add custom packages or adjust settings as needed.
+
+---
+
+## Acknowledgment
+
+This template includes placeholder text and structure generated with the assistance of ChatGPT, an AI language model developed by OpenAI. The framework streamlines the process of developing a LaTeX-based thesis while adhering to academic standards.
+
+---
+
+For questions or assistance, feel free to contact **Edgar Carrillo** at [elcar@uoregon.edu](mailto:elcar@uoregon.edu).
+
+---
+
