@@ -1,6 +1,6 @@
 # Master's Thesis Template
 
-This repository offers a <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="LaTeX Logo" title="LaTeX Logo" style="width:50px; height:auto;">  template created by **Edgar Carrillo**, originally designed to meet the thesis formatting requirements for Fisk University's MS in Physics program. 
+This repository offers a <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="LaTeX Logo" title="LaTeX Logo" style="background-color:white; padding:5px; width:50px; height:auto;"> template created by **Edgar Carrillo**, originally designed to meet the thesis formatting requirements for Fisk University's MS in Physics program. 
 
 To assist others in understanding and crafting a well-structured master's thesis, I have made this template publicly available as an example of a complete thesis framework.
 
