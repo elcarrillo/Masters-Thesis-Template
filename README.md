@@ -1,8 +1,8 @@
 # Master's Thesis Template
 
-This repository offers a comprehensive LaTeX template designed by Edgar Carrillo, initially created to meet the thesis formatting requirements for Fisk University's MS in Physics program. The template includes sample figures, references, tables, and logically organized section titles, making it a complete and practical tool for thesis preparation.
+This repository contains a LaTeX thesis template I created for Fisk University's MS in Physics program. It was originally built to follow the program's thesis formatting requirements and includes sample figures, references, tables, and organized section files to help students get started.
 
-By sharing this template publicly, I aim to support students in creating well-structured master's theses and provide a clear framework for academic writing.
+I am sharing this template publicly in the hope that it helps other students structure their master's theses more easily and spend less time setting up formatting from scratch.
 
 <div align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="LaTeX Logo" title="LaTeX Logo" style="width:50px; height:auto;">
@@ -72,9 +72,12 @@ The template is organized as follows:
 
 ---
 
-## Acknowledgment
+## Acknowledgements
 
-This template includes placeholder text generated with the assistance of ChatGPT, an AI language model developed by OpenAI.
+- Some sample placeholder text was drafted with assistance from ChatGPT and is included for demonstration purposes only.
+- Some sections use Lorem Ipsum as generic placeholder text.
+- This template uses standard LaTeX packages available through common TeX distributions. Package availability and licensing are governed by their respective maintainers.
+
 
 ---
 
